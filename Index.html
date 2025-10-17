@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Distribution Brisson et Fils - Boutique en ligne spécialisée dans la vente de produits technologiques pour tous.">
+  <title>Distribution Brisson et Fils</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #0b1c2c;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0e2439;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+
+    header img {
+      width: 140px;
+      height: auto;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #66b2ff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #66b2ff;
+      text-align: center;
+    }
+
+    .about {
+      text-align: center;
+      font-size: 1.1em;
+      color: #e1e1e1;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .service-card {
+      background-color: #122c44;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+
+    .service-card h3 {
+      color: #66b2ff;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact-info {
+      margin-bottom: 20px;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      background-color: #122c44;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 6px;
+      background-color: #1b3a57;
+      color: #fff;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #66b2ff;
+      border: none;
+      color: #0b1c2c;
+      font-weight: bold;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ffffff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0e2439;
+      color: #ccc;
+      font-size: 0.9em;
+    }
+
+    footer a {
+      color: #66b2ff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpeg" alt="Logo Distribution Brisson et Fils">
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#produits">Produits</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h1>Distribution Brisson et Fils</h1>
+    <p class="about">Tech Sign — Votre référence en produits technologiques de qualité.</p>
+  </section>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p class="about">
+      Distribution Brisson et Fils est une boutique en ligne spécialisée dans la vente de produits technologiques pour tous. 
+      Depuis plus de deux ans, nous opérons avec succès sur Facebook Marketplace et cherchons maintenant à élargir notre clientèle. 
+      Notre engagement est d'offrir des produits de qualité à un large public, tout en garantissant une expérience d'achat satisfaisante.
+    </p>
+  </section>
+
+  <section id="produits">
+    <h2>Produits & Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Accessoires technologiques</h3>
+        <p>Une gamme complète de produits pratiques pour votre quotidien connecté.</p>
+      </div>
+      <div class="service-card">
+        <h3>Électronique grand public</h3>
+        <p>Appareils modernes, fiables et abordables pour tous les budgets.</p>
+      </div>
+      <div class="service-card">
+        <h3>Service client dédié</h3>
+        <p>Nous accompagnons chaque client pour une expérience simple et rapide.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <div class="contact-info">
+      <p>📧 <a href="mailto:distributionbrissonetfils@gmail.com">distributionbrissonetfils@gmail.com</a></p>
+      <p>📞 Téléphone : 438-989-5892</p>
+      <p>🌐 <a href="https://www.facebook.com/distributionbrissonetfils/?locale=fr_FR" target="_blank">Page Facebook</a></p>
+    </div>
+
+    <form>
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre courriel" required>
+      <textarea rows="4" placeholder="Votre message..." required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Distribution Brisson et Fils</p>
+  </footer>
+</body>
+</html>
